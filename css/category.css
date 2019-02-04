@@ -1,0 +1,89 @@
+body {
+	margin: 0 auto;
+}
+
+nav {
+    float: right;
+}
+
+.main_menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main_menu li {
+    background: #000;
+    float: left;
+    list-style: none;
+}
+
+.main_menu li a {
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    font-family: Lato, Arial, Tahoma;
+    font-size: 24px;
+    line-height: 70px;
+    padding: 0 30px;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    opacity: 0.6;
+}
+
+.main_menu li a:hover {
+    background: #00bff3;
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 1; 
+}
+
+.nawigacja-column {
+    float: left;
+    width: 20%;
+    padding: 0;
+    margin: 0 auto;
+}
+ 
+.nawigacja-column li a {
+    display: block;
+    line-height: 26px;
+ 
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #888888;
+}
+ 
+.nawigacja-column li a:hover { 
+    background: none;
+    color: #666666; 
+}
+
+.nawigacja-column li:hover { 
+    background: : #fff; }
+
+
+.main_menu > li > #hero {
+    position: absolute;
+    display: block;
+    top: 70px;
+    visibility: hidden;
+    background: #000;
+ 
+/*    -webkit-transition: all .3s ease .15s;
+    -moz-transition: all .3s ease .15s;
+    -o-transition: all .3s ease .15s;
+    -ms-transition: all .3s ease .15s;
+    transition: all .3s ease .15s;*/
+}
+
+.main_menu > li:active > #hero {
+    opacity: 1;
+    visibility: visible;
+    overflow: visible;
+}
